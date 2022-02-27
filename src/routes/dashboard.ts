@@ -1,4 +1,4 @@
-import { checkAuth, redirectAuth } from "../utils";
+import { redirectAuth } from "../utils";
 import express from "express";
 const router = express.Router();
 
