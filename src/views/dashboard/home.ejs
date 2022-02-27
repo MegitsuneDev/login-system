@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<%- include('../partial/head', { name: "Accueil", icon: "favicon" }) %>
+
+<body>
+
+    <h1>Connecté en tant que : <%= user %></h1>
+
+    <a href="/auth/logout"><button>Se déconnecter</button></a>
+    
+</body>
+</html>

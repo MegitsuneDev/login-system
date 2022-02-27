@@ -1,0 +1,11 @@
+<head>
+    <title><%= name %></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/index.css"/>
+    <link link rel="icon" type="image/png" href="/images/<%= icon %>.png" /> 
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <% if(name === "Connexion..." || name === "Inscription..." ) {%>
+        <a href="/"><img src="/images/retour.png" width="25" height="25"/></a>
+    <%}%>
+</head>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<%- include('../partial/head', { name: "Connexion...", icon: "favicon" }) %>
+
+<body>
+
+    <div class="form">
+        <form method="POST" action="/auth/login">
+            
+            <h1>Connexion</h1>
+            
+            <div>
+                <label>Nom d'utilisateur :</label>
+                <input type="text" name="username" maxlength="20" required>
+            </div>
+            <% if(error.includes("username")) { %><label class="red"><strong>Le nom d'utilisateur renseigné est incorrect !</strong></label><br><%}%>
+          
+            <div>
+                <label>Mot de passe :</label>
+                <input type="password" name="password" maxlength="20" required> 
+            </div>
+            <% if(error.includes("password")) { %><label class="red"><strong>Le mot de passe renseigné est incorrect !</strong></label><br><%}%>
+
+            <div><button type="submit">Enregistrer</button></div>
+       </form>
+    </div>
+    
+</body>
+</html>
