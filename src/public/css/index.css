@@ -46,4 +46,13 @@ input {
 	width: 100%;
 }
 
+.errorTitle {
+	margin-top: 13%;
+	text-align: center;
+}
+
+.errorButton {
+	margin-left: 42%;
+}
+
 .red { color: red; }
