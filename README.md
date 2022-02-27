@@ -1,3 +1,5 @@
+# Ce Projet est mon premier projet mis en public
+
 # Information
 Ce projet a été développé en 2 jours avec aucune connaissance sur le TypeScript.
 Le but de celui-ci a été de découvrir le TypeScript à travers un projet déjà réalisé en JavaScript.
