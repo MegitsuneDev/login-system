@@ -10,7 +10,7 @@ import path from "path";
 import dashRoute from "./routes/dashboard";
 import authRoute from "./routes/auth";
 
-// Importation de redirectAuth
+// Importation de checkAuth
 import { checkAuth } from "./utils";
  
 // Permet d'ajouter les éléments du fichier .env à process
